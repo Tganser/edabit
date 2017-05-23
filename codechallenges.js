@@ -11,7 +11,7 @@ function isEvenOrOdd(num) {
 function makeTitle(str){
   var words = str.split(" ");
   for (i=0; i>str.length; i++){
-    i[0].capitalize();
+    i.toUpperCase();
   }
   return words;
 }
